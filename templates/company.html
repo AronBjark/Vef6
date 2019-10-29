@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Electrolize&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+	<title>sexe boi</title>
+</head>
+<body>
+
+	{% for gas in data %}
+		{% if x == gas['company'] %}
+			<div style="height: 100%"">
+				<a href = "/station/{{ gas['key'] }}">{{gas['name']}}</a>
+				<h2>{{gas['bensin95']}}kr</h2>
+			</div>
+		{% endif %}
+	{% endfor %}
+
+</body>
+</html>

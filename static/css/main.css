@@ -1,0 +1,22 @@
+body{
+	margin:0;
+	text-align: center;
+	/* be hot smoke thots */	
+	font-family: 'Electrolize', sans-serif;
+	background-color: DarkGray;
+}
+div{
+	border: solid 6px #420dab;
+	margin: 0 20%;
+	border-radius: 420px;
+	height: 200px;
+	padding-top: 20px;
+	border-collapse: collapse;
+	margin-bottom: 2px;
+}
+.pappa{
+	background-color: DarkGray;
+}
+.mama{
+	color: #420dab;
+}
